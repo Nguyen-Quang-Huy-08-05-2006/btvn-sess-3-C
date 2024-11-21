@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main (){
-	int C;
+	float C,F;
 	printf("nhap nhiet do Celsius: ");
-	scanf("%d", &C);
-	int F = (C * 9/5) + 32;
-	printf("nhiet do Fahrenheit la: %d ",F);
+	scanf("%f", &C);
+	F = (C * 9/5) + 32;
+	printf("nhiet do Fahrenheit la: %.2f ",F);
 	return 0;
 }
