@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(){
-	int a;
-	int h;
+	float a;
+	float h;
 	
 	printf("nhap do dai canh tam giac : ");
-	scanf("%d", &a);
+	scanf("%f", &a);
 	
 	printf("nhap chieu cao tam giac : ");
-	scanf("%d", &h);
+	scanf("%f", &h);
 	
-	int S = (a * h) / 2;
-	printf("dien tich tam giac la %d \n", S);
+	S = (a * h) / 2;
+	printf("dien tich tam giac la %.2f ", S);
 	
 	return 0;	
 	
